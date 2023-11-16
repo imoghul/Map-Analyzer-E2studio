@@ -1,0 +1,34 @@
+Section,Group,Start address (VMA),End address,Size (byte),Align,Attribute,Load address (LMA)
+.vfp11_veneer,Constant,0x00004640,---,0,---,---,---
+.v4_bx,Constant,0x00004640,---,0,---,---,---
+.text,Program,0x00000000,0x0000463F,17984,---,---,---
+.stack_dummy,Stack,0x20000BB8,0x200017B7,3072,---,---,---
+.sdram,Uninitialized Data,0x80010000,---,0,---,---,---
+.qspi_non_retentive,Others,0x60000000,---,0,---,---,0x00004658
+.qspi_flash,Others,0x60000000,---,0,---,---,---
+.ospi_device_1_non_retentive,Others,0x70000000,---,0,---,---,0x00004658
+.OSPI_DEVICE_1_NO_LOAD,Others,0x70000000,---,0,---,---,---
+.OSPI_DEVICE_1,Others,0x70000000,---,0,---,---,---
+.ospi_device_0_non_retentive,Others,0x68000000,---,0,---,---,0x00004658
+.OSPI_DEVICE_0_NO_LOAD,Others,0x68000000,---,0,---,---,---
+.OSPI_DEVICE_0,Others,0x68000000,---,0,---,---,---
+.option_setting_sas,Others,0x0100A134,0x0100A137,4,---,---,---
+.option_setting_s,Others,0x0100A200,0x0100A2CF,208,---,---,---
+.option_setting_ofs,Others,0x0100A100,0x0100A113,20,---,---,---
+.option_setting_ns,Others,0x0100A100,---,0,---,---,---
+.ns_buffer,Others,0x200017B8,---,0,---,---,---
+.noinit,Data,0x20000018,0x20000037,32,---,---,---
+.itcm_data,Others,0x00000000,---,0,---,---,---
+.iplt,Constant,0x00004640,---,0,---,---,---
+.igot.plt,Constant,0x20000018,---,0,---,---,0x00004658
+.id_code,Others,0x00000000,---,0,---,---,---
+.heap,Uninitialized Data,0x20000BB8,---,0,---,---,---
+.gnu.sgstubs,Others,0x00004800,---,0,---,---,---
+.glue_7t,Constant,0x00004640,---,0,---,---,---
+.glue_7,Constant,0x00004640,---,0,---,---,---
+.fsp_dtc_vector_table,Others,0x20000000,---,0,---,---,---
+.dtcm_noinit,Others,0x00000000,---,0,---,---,0x00004658
+.dtcm_data,Others,0x00000000,---,0,---,---,0x00004658
+.data_flash,Constant,0x08000000,---,0,---,---,---
+.data,Initialized Data,0x20000000,0x20000017,24,---,---,0x00004640
+.bss,Uninitialized Data,0x20000038,0x20000BB7,2944,---,---,---

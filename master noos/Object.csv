@@ -1,0 +1,159 @@
+Object File,Start address,End address,Size (byte),Section,Group
+./QCIOT009_API/rm_qciot009.o,0x000016B8,0x0000171F,104,.text,Program
+./QCIOT009_API/rm_qciot009.o,0x00001720,0x0000178F,112,.text,Program
+./QCIOT009_API/rm_qciot009.o,0x00001EB4,0x00001F12,95,.text,Program
+./QCIOT009_API/rm_qciot009.o,0x00001F14,0x00001F1C,9,.text,Program
+./QCIOT009_API/rm_qciot009.o,0x00001F20,0x00001F28,9,.text,Program
+./QCIOT009_API/rm_qciot009.o,0x2000027C,0x2000027D,2,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x20000280,0x20000293,20,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x20000294,0x20000297,4,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x20000298,0x200002AB,20,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x200002AC,0x200002AF,4,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x200002B0,0x200002C3,20,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009.o,0x200002C4,0x200002C7,4,.bss,Uninitialized Data
+./QCIOT009_API/rm_qciot009_master.o,0x00001790,0x0000181F,144,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x00001820,0x0000189B,124,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x0000189C,0x0000190B,112,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x0000190C,0x000019EB,224,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x00001F2C,0x00001F85,90,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x00001F86,0x00001F98,19,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x00001F88,0x00001F9C,21,.text,Program
+./QCIOT009_API/rm_qciot009_master.o,0x00001FA0,0x00001FAB,12,.text,Program
+./ra/board/ra6m4_ek/board_init.o,0x000016B4,0x000016B7,4,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x00000000,0x0000003F,64,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x000015E0,0x000015E3,4,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x000015E4,0x000015EF,12,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x200002C8,0x200006C7,1024,.stack_dummy,Stack
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o,0x000015F0,0x000016B3,196,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o,0x20000278,0x2000027B,4,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x00001248,0x0000126F,40,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x00001270,0x0000137F,272,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x00001380,0x000013DB,92,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x20000014,0x2000002F,28,.noinit,Data
+./ra/fsp/src/bsp/mcu/all/bsp_common.o,0x000013DC,0x000013DF,4,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_common.o,0x00001A18,0x00001A67,80,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_delay.o,0x000013E0,0x000013EB,12,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_delay.o,0x000013EC,0x00001453,104,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o,0x00001454,0x0000148B,56,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o,0x200000AC,0x200000EB,64,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_io.o,0x200000EC,0x200000EF,4,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_irq.o,0x0000148C,0x0000152B,160,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_irq.o,0x200000F0,0x2000026F,384,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x0000152C,0x0000158B,96,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x0000158C,0x000015DF,84,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x00001EAC,0x00001EB3,8,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x20000270,0x20000277,8,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A100,0x0100A103,4,.option_setting_ofs,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A110,0x0100A113,4,.option_setting_ofs,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A134,0x0100A137,4,.option_setting_sas,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A200,0x0100A203,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A210,0x0100A213,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A240,0x0100A243,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A244,0x0100A247,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A248,0x0100A24B,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A24C,0x0100A24F,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A260,0x0100A263,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A264,0x0100A267,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A268,0x0100A26B,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A26C,0x0100A26F,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A280,0x0100A283,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A290,0x0100A293,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A2C0,0x0100A2C3,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A2C4,0x0100A2C7,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A2C8,0x0100A2CB,4,.option_setting_s,Others
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x0100A2CC,0x0100A2CF,4,.option_setting_s,Others
+./ra/fsp/src/r_icu/r_icu.o,0x0000110C,0x0000118F,132,.text,Program
+./ra/fsp/src/r_icu/r_icu.o,0x00001190,0x000011D3,68,.text,Program
+./ra/fsp/src/r_icu/r_icu.o,0x000011D4,0x00001247,116,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000D64,0x00000D6F,12,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000D70,0x00000D93,36,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000D94,0x00000DA7,20,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000DA8,0x00000DC3,28,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000DC4,0x00000DE3,32,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000DE4,0x00000E0F,44,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000E10,0x00000E27,24,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000E28,0x00000E5F,56,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000E60,0x00000E7B,28,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000E7C,0x00000EC7,76,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000EC8,0x00000F83,188,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00000F84,0x00001043,192,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001044,0x00001057,20,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001058,0x00001063,12,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001064,0x0000110B,168,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001E70,0x00001EA3,52,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001EA4,0x00001EA9,6,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x000003B4,0x000003BF,12,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x000003C0,0x000003CF,16,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x000003D0,0x0000041B,76,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x0000041C,0x00000427,12,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000428,0x0000043B,20,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x0000043C,0x0000047F,68,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000480,0x0000050B,140,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x0000050C,0x0000053B,48,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x0000053C,0x00000607,204,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000608,0x000006DB,212,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x000006DC,0x00000ACB,1008,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000ACC,0x00000B5B,144,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000B5C,0x00000C9B,320,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000C9C,0x00000CEB,80,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000CEC,0x00000D63,120,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00001E4C,0x00001E6F,36,.text,Program
+./ra_gen/common_data.o,0x00001A80,0x00001A93,20,.text,Program
+./ra_gen/common_data.o,0x00001A94,0x00001AA7,20,.text,Program
+./ra_gen/common_data.o,0x00001AA8,0x00001AB3,12,.text,Program
+./ra_gen/common_data.o,0x20000054,0x20000063,16,.bss,Uninitialized Data
+./ra_gen/common_data.o,0x20000064,0x20000073,16,.bss,Uninitialized Data
+./ra_gen/common_data.o,0x20000074,0x2000007B,8,.bss,Uninitialized Data
+./ra_gen/hal_data.o,0x00001AB4,0x00001ABF,12,.text,Program
+./ra_gen/hal_data.o,0x00001AC0,0x00001ADF,32,.text,Program
+./ra_gen/hal_data.o,0x00001AE0,0x00001AF3,20,.text,Program
+./ra_gen/hal_data.o,0x20000008,0x2000000B,4,.data,Initialized Data
+./ra_gen/hal_data.o,0x2000007C,0x200000AB,48,.bss,Uninitialized Data
+./ra_gen/main.o,0x000003A8,0x000003B3,12,.text,Program
+./ra_gen/pin_data.o,0x00001AF4,0x00001AFB,8,.text,Program
+./ra_gen/pin_data.o,0x00001AFC,0x00001D8B,656,.text,Program
+./ra_gen/vector_data.o,0x00000040,0x000001BF,384,.text,Program
+./ra_gen/vector_data.o,0x00001D8C,0x00001E4B,192,.text,Program
+./src/demo.o,0x00000240,0x00000373,308,.text,Program
+./src/demo.o,0x00000374,0x0000037F,12,.text,Program
+./src/demo.o,0x00000380,0x0000038B,12,.text,Program
+./src/demo.o,0x20000000,0x20000002,3,.data,Initialized Data
+./src/demo.o,0x20000004,0x20000006,3,.data,Initialized Data
+./src/demo.o,0x2000004C,0x2000004C,1,.bss,Uninitialized Data
+./src/demo.o,0x2000004D,0x2000004D,1,.bss,Uninitialized Data
+./src/demo.o,0x20000050,0x20000053,4,.bss,Uninitialized Data
+./src/hal_entry.o,0x0000038C,0x0000038F,4,.text,Program
+./src/hal_entry.o,0x00000390,0x000003A7,24,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libg_nano.a(lib_a-memcpy-stub.o),0x000019EC,0x00001A05,26,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libg_nano.a(lib_a-memset.o),0x00001A06,0x00001A15,16,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x00000200,0x0000023F,64,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x00001FAC,---,0,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x00001FB0,---,0,.iplt,Constant
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x2000000C,0x2000000F,4,.data,Initialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x20000010,0x20000013,4,.data,Initialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x20000014,---,0,.igot.plt,Constant
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o,0x20000030,0x2000004B,28,.bss,Uninitialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtend.o,0x00001FAC,0x00001FAF,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o,0x00001A68,0x00001A6B,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o,0x00001A74,0x00001A77,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o,0x00001A6C,0x00001A73,8,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o,0x00001A78,0x00001A7F,8,.text,Program
+ff,0x000001C0,0x000001FF,64,.text,Program
+ff,0x00001A16,0x00001A17,2,.text,Program
+ff,0x00001EAA,0x00001EAB,2,.text,Program
+ff,0x00001F13,0x00001F13,1,.text,Program
+ff,0x00001F1D,0x00001F1F,3,.text,Program
+ff,0x00001F29,0x00001F2B,3,.text,Program
+ff,0x00001F86,0x00001F87,2,.text,Program
+ff,0x00001F9D,0x00001F9F,3,.text,Program
+ff,0x0100A104,0x0100A10F,12,.option_setting_ofs,Others
+ff,0x0100A204,0x0100A20F,12,.option_setting_s,Others
+ff,0x0100A214,0x0100A23F,44,.option_setting_s,Others
+ff,0x0100A250,0x0100A25F,16,.option_setting_s,Others
+ff,0x0100A270,0x0100A27F,16,.option_setting_s,Others
+ff,0x0100A284,0x0100A28F,12,.option_setting_s,Others
+ff,0x0100A294,0x0100A2BF,44,.option_setting_s,Others
+linker stubs,0x00001FB0,---,0,.glue_7,Constant
+linker stubs,0x00001FB0,---,0,.glue_7t,Constant
+linker stubs,0x00001FB0,---,0,.vfp11_veneer,Constant
+linker stubs,0x00001FB0,---,0,.v4_bx,Constant

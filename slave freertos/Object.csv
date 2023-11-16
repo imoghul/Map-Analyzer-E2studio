@@ -1,0 +1,328 @@
+Object File,Start address,End address,Size (byte),Section,Group
+./QCIOT009API/rm_qciot009.o,0x0000341C,0x0000348F,116,.text,Program
+./QCIOT009API/rm_qciot009.o,0x00003490,0x00003513,132,.text,Program
+./QCIOT009API/rm_qciot009.o,0x00004310,0x0000436E,95,.text,Program
+./QCIOT009API/rm_qciot009.o,0x00004370,0x00004378,9,.text,Program
+./QCIOT009API/rm_qciot009.o,0x0000437C,0x00004384,9,.text,Program
+./QCIOT009API/rm_qciot009.o,0x20004980,0x20004980,1,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x20004982,0x20004983,2,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x20004984,0x20004984,1,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x20004988,0x2000499B,20,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x2000499C,0x2000499F,4,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x200049A0,0x200049B3,20,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x200049B4,0x200049B7,4,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x200049B8,0x200049CB,20,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x200049CC,0x200049CF,4,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009.o,0x200049D0,0x200049D0,1,.bss,Uninitialized Data
+./QCIOT009API/rm_qciot009_slave.o,0x00003514,0x000035EB,216,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x000035EC,0x0000368F,164,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x00003690,0x00003863,468,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x00004388,0x000043E0,89,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x000043E1,0x000043F3,19,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x000043E4,0x000043F4,17,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x000043F8,0x0000440B,20,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x0000440C,0x00004412,7,.text,Program
+./QCIOT009API/rm_qciot009_slave.o,0x00004414,0x0000441E,11,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/list.o,0x00001B8C,0x00001BA3,24,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/list.o,0x00001BA4,0x00001BAB,8,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/list.o,0x00001BAC,0x00001BDB,48,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/list.o,0x00001BDC,0x00001BFF,36,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001C00,0x00001C5B,92,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001C5C,0x00001CE7,140,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001CE8,0x00001DCF,232,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001DD0,0x00001E73,164,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001E74,0x00001F0B,152,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00001F0C,0x000020DF,468,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x000020E0,0x00002297,440,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00002298,0x0000241F,392,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00002420,0x0000249F,128,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x000024A0,0x000024E7,72,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003C84,0x00003CB6,51,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003CB8,0x00003CE3,44,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003CE4,0x00003D1A,55,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003D1C,0x00003D23,8,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003D24,0x00003E1E,251,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003E20,0x00003E9C,125,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003EA0,0x00003F05,102,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F08,0x00003F1B,20,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F1C,0x00003F29,14,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F2C,0x00003F3D,18,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F40,0x00003F63,36,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F64,0x00003F7D,26,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F80,0x00003F92,19,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x00003F94,0x00003FA7,20,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o,0x20004734,0x20004783,80,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000024E8,0x0000257F,152,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002580,0x000025F7,120,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000025F8,0x000027AF,440,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000027B0,0x00002A57,680,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002A58,0x00002AF3,156,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002AF4,0x00002B03,16,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002B04,0x00002CD3,464,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002CD4,0x00002D2F,92,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002D30,0x00002D3B,12,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002D3C,0x00002D63,40,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002D64,0x00002E0B,168,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002E0C,0x00002E4B,64,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002E4C,0x00002EAF,100,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002EB0,0x00002FA3,244,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002FA4,0x00002FBF,28,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00002FC0,0x00003067,168,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00003068,0x00003077,16,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00003078,0x00003097,32,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00003FA8,0x00003FDA,51,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00003FDC,0x00004051,118,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004054,0x000040BC,105,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000040C0,0x000040D9,26,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000040DC,0x000040F5,26,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000040F8,0x0000410C,21,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004110,0x0000411D,14,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004120,0x0000412B,12,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x0000412C,0x0000413A,15,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x0000413C,0x00004145,10,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004148,0x00004155,14,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004158,0x00004170,25,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004174,0x00004193,32,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004194,0x000041A9,22,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000041AC,0x000041BE,19,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000041C0,0x000041D2,19,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000041D4,0x000041E2,15,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000041E4,0x000041F7,20,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x000041F8,0x00004202,11,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004204,0x00004218,21,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x0000421C,0x0000422D,18,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x00004230,0x00004244,21,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004004,0x20004007,4,.data,Initialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004784,0x20004787,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004788,0x2000478B,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x2000478C,0x2000478F,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004790,0x200047F3,100,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x200047F4,0x200047F7,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x200047F8,0x200047FB,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x200047FC,0x200047FF,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004800,0x20004803,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004804,0x20004807,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004808,0x2000481B,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x2000481C,0x2000482F,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004830,0x20004833,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004834,0x20004837,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004838,0x2000483B,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x2000483C,0x2000484F,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004850,0x20004853,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004854,0x20004867,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004868,0x2000487B,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x2000487C,0x2000487F,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o,0x20004880,0x20004883,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x00003098,0x00003113,124,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x00003114,0x00003163,80,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x00003164,0x0000319F,60,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000031A0,0x0000339F,512,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000033A0,0x0000341B,124,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x00004248,0x0000424C,5,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x00004250,0x000042A3,84,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000042A4,0x000042CB,40,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000042CC,0x000042DB,16,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000042DC,0x000042F6,27,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x000042F8,0x0000430D,22,.text,Program
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004884,0x20004887,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004888,0x2000488B,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x2000488C,0x20004903,120,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004904,0x20004917,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004918,0x2000492B,20,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x2000492C,0x2000492F,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004930,0x20004977,72,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x20004978,0x2000497B,4,.bss,Uninitialized Data
+./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o,0x2000497C,0x2000497F,4,.bss,Uninitialized Data
+./ra/board/ra2e1_ek/board_init.o,0x00001B88,0x00001B8B,4,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x00000000,0x0000003F,64,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x00001A34,0x00001A37,4,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x00001A38,0x00001A43,12,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o,0x200049D8,0x20004DD7,1024,.stack_dummy,Stack
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o,0x00001A44,0x00001B87,324,.text,Program
+./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o,0x20004730,0x20004733,4,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x00001778,0x000017A3,44,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x000017A4,0x000018AB,264,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x000018AC,0x000018BB,16,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_clocks.o,0x20004010,0x20004023,20,.noinit,Data
+./ra/fsp/src/bsp/mcu/all/bsp_common.o,0x000018BC,0x000018BF,4,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_common.o,0x000038E4,0x00003933,80,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_delay.o,0x000018C0,0x000018C7,8,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_delay.o,0x000018C8,0x00001923,92,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o,0x00001924,0x0000196B,72,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o,0x20004664,0x200046A3,64,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_io.o,0x200046A4,0x200046A7,4,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_irq.o,0x0000196C,0x00001993,40,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_irq.o,0x200046A8,0x20004727,128,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x00001994,0x000019E7,84,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x000019E8,0x00001A33,76,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x00003C7C,0x00003C83,8,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o,0x20004728,0x2000472F,8,.bss,Uninitialized Data
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x00000400,0x0000043B,60,.text,Program
+./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o,0x01010018,0x01010033,28,.id_code,Others
+./ra/fsp/src/r_ioport/r_ioport.o,0x0000145C,0x00001463,8,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001464,0x00001487,36,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001488,0x0000149F,24,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000014A0,0x000014BF,32,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000014C0,0x000014E7,40,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000014E8,0x0000150B,36,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x0000150C,0x00001523,24,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001524,0x0000154F,44,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001550,0x0000156F,32,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00001570,0x000015BB,76,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000015BC,0x000016B3,248,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000016B4,0x000016CB,24,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000016CC,0x000016D7,12,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x000016D8,0x00001777,160,.text,Program
+./ra/fsp/src/r_ioport/r_ioport.o,0x00003C48,0x00003C7B,52,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000A9C,0x00000AA3,8,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000AA4,0x00000AAF,12,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000AB0,0x00000AEF,64,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000AF0,0x00000AFB,12,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000AFC,0x00000B07,12,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000B08,0x00000B8F,136,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000B90,0x00000BDF,80,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000BE0,0x00000C73,148,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000C74,0x00000FAB,824,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000FAC,0x00000FDB,48,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00000FDC,0x00001093,184,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00001094,0x0000117F,236,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00001180,0x00001213,148,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00001214,0x00001383,368,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00001384,0x000013D7,84,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x000013D8,0x0000145B,132,.text,Program
+./ra/fsp/src/r_sci_uart/r_sci_uart.o,0x00003C24,0x00003C47,36,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000814,0x00000817,4,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000818,0x00000833,28,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000834,0x0000085B,40,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x0000085C,0x00000883,40,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000884,0x000008AB,40,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x000008AC,0x000008E3,56,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x000008E4,0x0000090B,40,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x0000090C,0x00000963,88,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000964,0x000009A7,68,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x000009A8,0x00000A0F,104,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000A10,0x00000A27,24,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000A28,0x00000A6F,72,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00000A70,0x00000A9B,44,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003B50,0x00003B89,58,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003B8C,0x00003BD1,70,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003BD4,0x00003BE5,18,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003BE8,0x00003BF9,18,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003BFC,0x00003C0E,19,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x00003C10,0x00003C21,18,.text,Program
+./ra/fsp/src/rm_freertos_port/port.o,0x2000465C,0x2000465F,4,.bss,Uninitialized Data
+./ra/fsp/src/rm_freertos_port/port.o,0x20004660,0x20004663,4,.bss,Uninitialized Data
+./ra_gen/common_data.o,0x00000628,0x0000062B,4,.text,Program
+./ra_gen/common_data.o,0x0000394C,0x00003957,12,.text,Program
+./ra_gen/common_data.o,0x20004048,0x2000404F,8,.bss,Uninitialized Data
+./ra_gen/hal_data.o,0x0000062C,0x00000633,8,.text,Program
+./ra_gen/led_handler_thread.o,0x00000634,0x00000643,16,.text,Program
+./ra_gen/led_handler_thread.o,0x00000644,0x000006A7,100,.text,Program
+./ra_gen/led_handler_thread.o,0x00003958,0x00003962,11,.text,Program
+./ra_gen/led_handler_thread.o,0x00003964,0x00003967,4,.text,Program
+./ra_gen/led_handler_thread.o,0x20004050,0x20004053,4,.bss,Uninitialized Data
+./ra_gen/led_handler_thread.o,0x20004054,0x200040B3,96,.bss,Uninitialized Data
+./ra_gen/led_handler_thread.o,0x20004DD8,0x200051D7,1024,.stack_dummy,Stack
+./ra_gen/main.o,0x000006A8,0x000006AB,4,.text,Program
+./ra_gen/main.o,0x000006AC,0x00000717,108,.text,Program
+./ra_gen/main.o,0x00000718,0x00000767,80,.text,Program
+./ra_gen/main.o,0x00000768,0x00000783,28,.text,Program
+./ra_gen/main.o,0x00000784,0x0000079F,28,.text,Program
+./ra_gen/main.o,0x200040B4,0x200040B4,1,.bss,Uninitialized Data
+./ra_gen/main.o,0x200040B8,0x200040BB,4,.bss,Uninitialized Data
+./ra_gen/main.o,0x200040BC,0x20004103,72,.bss,Uninitialized Data
+./ra_gen/main.o,0x20004104,0x20004107,4,.bss,Uninitialized Data
+./ra_gen/main.o,0x20004108,0x20004307,512,.bss,Uninitialized Data
+./ra_gen/main.o,0x20004308,0x20004507,512,.bss,Uninitialized Data
+./ra_gen/main.o,0x20004508,0x20004567,96,.bss,Uninitialized Data
+./ra_gen/main.o,0x20004568,0x200045C7,96,.bss,Uninitialized Data
+./ra_gen/pin_data.o,0x00003968,0x0000396F,8,.text,Program
+./ra_gen/pin_data.o,0x00003970,0x00003ADF,368,.text,Program
+./ra_gen/uart_handler_thread.o,0x000007A0,0x000007AF,16,.text,Program
+./ra_gen/uart_handler_thread.o,0x000007B0,0x00000813,100,.text,Program
+./ra_gen/uart_handler_thread.o,0x00003AE0,0x00003AEB,12,.text,Program
+./ra_gen/uart_handler_thread.o,0x00003AEC,0x00003AF7,12,.text,Program
+./ra_gen/uart_handler_thread.o,0x00003AF8,0x00003B17,32,.text,Program
+./ra_gen/uart_handler_thread.o,0x00003B18,0x00003B2B,20,.text,Program
+./ra_gen/uart_handler_thread.o,0x00003B2C,0x00003B2F,4,.text,Program
+./ra_gen/uart_handler_thread.o,0x20004000,0x20004003,4,.data,Initialized Data
+./ra_gen/uart_handler_thread.o,0x200045C8,0x200045F7,48,.bss,Uninitialized Data
+./ra_gen/uart_handler_thread.o,0x200045F8,0x200045FB,4,.bss,Uninitialized Data
+./ra_gen/uart_handler_thread.o,0x200045FC,0x2000465B,96,.bss,Uninitialized Data
+./ra_gen/uart_handler_thread.o,0x200051D8,0x200055D7,1024,.stack_dummy,Stack
+./ra_gen/vector_data.o,0x00000040,0x000000BF,128,.text,Program
+./ra_gen/vector_data.o,0x00003B30,0x00003B4F,32,.text,Program
+./src/hal_entry.o,0x00000550,0x00000587,56,.text,Program
+./src/led_handler_thread_entry.o,0x00000588,0x000005E3,92,.text,Program
+./src/led_handler_thread_entry.o,0x20004044,0x20004046,3,.bss,Uninitialized Data
+./src/uart_handler_thread_entry.o,0x000005E4,0x000005EF,12,.text,Program
+./src/uart_handler_thread_entry.o,0x000005F0,0x000005F3,4,.text,Program
+./src/uart_handler_thread_entry.o,0x000005F4,0x00000627,52,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memcpy-stub.o),0x000038C0,0x000038D1,18,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memset.o),0x000038D2,0x000038E1,16,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x00000500,0x0000054F,80,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x00004420,---,0,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x00004424,---,0,.iplt,Constant
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x20004008,0x2000400B,4,.data,Initialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x2000400C,0x2000400F,4,.data,Initialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x20004010,---,0,.igot.plt,Constant
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x20004028,0x20004043,28,.bss,Uninitialized Data
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtbegin.o,0x01010034,---,0,.rel.dyn,Constant
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtend.o,0x00004420,0x00004423,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o,0x00003934,0x00003937,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o,0x00003940,0x00003943,4,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtn.o,0x00003938,0x0000393F,8,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crtn.o,0x00003944,0x0000394B,8,.text,Program
+c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o),0x00003864,0x000038BF,92,.text,Program
+ff,0x000000C0,0x000003FF,832,.text,Program
+ff,0x0000043C,0x000004FF,196,.text,Program
+ff,0x000038E2,0x000038E3,2,.text,Program
+ff,0x00003963,0x00003963,1,.text,Program
+ff,0x00003B8A,0x00003B8B,2,.text,Program
+ff,0x00003BD2,0x00003BD3,2,.text,Program
+ff,0x00003BE6,0x00003BE7,2,.text,Program
+ff,0x00003BFA,0x00003BFB,2,.text,Program
+ff,0x00003C0F,0x00003C0F,1,.text,Program
+ff,0x00003C22,0x00003C23,2,.text,Program
+ff,0x00003CB7,0x00003CB7,1,.text,Program
+ff,0x00003D1B,0x00003D1B,1,.text,Program
+ff,0x00003E1F,0x00003E1F,1,.text,Program
+ff,0x00003E9D,0x00003E9F,3,.text,Program
+ff,0x00003F06,0x00003F07,2,.text,Program
+ff,0x00003F2A,0x00003F2B,2,.text,Program
+ff,0x00003F3E,0x00003F3F,2,.text,Program
+ff,0x00003F7E,0x00003F7F,2,.text,Program
+ff,0x00003F93,0x00003F93,1,.text,Program
+ff,0x00003FDB,0x00003FDB,1,.text,Program
+ff,0x00004052,0x00004053,2,.text,Program
+ff,0x000040BD,0x000040BF,3,.text,Program
+ff,0x000040DA,0x000040DB,2,.text,Program
+ff,0x000040F6,0x000040F7,2,.text,Program
+ff,0x0000410D,0x0000410F,3,.text,Program
+ff,0x0000411E,0x0000411F,2,.text,Program
+ff,0x0000413B,0x0000413B,1,.text,Program
+ff,0x00004146,0x00004147,2,.text,Program
+ff,0x00004156,0x00004157,2,.text,Program
+ff,0x00004171,0x00004173,3,.text,Program
+ff,0x000041AA,0x000041AB,2,.text,Program
+ff,0x000041BF,0x000041BF,1,.text,Program
+ff,0x000041D3,0x000041D3,1,.text,Program
+ff,0x000041E3,0x000041E3,1,.text,Program
+ff,0x00004203,0x00004203,1,.text,Program
+ff,0x00004219,0x0000421B,3,.text,Program
+ff,0x0000422E,0x0000422F,2,.text,Program
+ff,0x00004245,0x00004247,3,.text,Program
+ff,0x0000424D,0x0000424F,3,.text,Program
+ff,0x000042F7,0x000042F7,1,.text,Program
+ff,0x0000430E,0x0000430F,2,.text,Program
+ff,0x0000436F,0x0000436F,1,.text,Program
+ff,0x00004379,0x0000437B,3,.text,Program
+ff,0x00004385,0x00004387,3,.text,Program
+ff,0x000043E1,0x000043E3,3,.text,Program
+ff,0x000043F5,0x000043F7,3,.text,Program
+ff,0x00004413,0x00004413,1,.text,Program
+ff,0x0000441F,0x0000441F,1,.text,Program
+linker stubs,0x00004424,---,0,.glue_7,Constant
+linker stubs,0x00004424,---,0,.glue_7t,Constant
+linker stubs,0x00004424,---,0,.vfp11_veneer,Constant
+linker stubs,0x00004424,---,0,.v4_bx,Constant

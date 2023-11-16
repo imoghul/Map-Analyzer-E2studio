@@ -1,0 +1,154 @@
+Symbol,Start address,End address,Size (byte),Data type,Declaration type,Section,Group,Object File
+__Vectors,0x00000000,0x0000003F,64,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+g_vector_table,0x00000040,0x000000BF,128,---,---,.text,Program,./ra_gen/vector_data.o
+R_BSP_WarmStart,0x00000550,0x00000587,56,---,---,.text,Program,./src/hal_entry.o
+led_handler_thread_entry,0x00000588,0x000005E3,92,---,---,.text,Program,./src/led_handler_thread_entry.o
+getCommandData,0x000005E4,0x000005EF,12,---,---,.text,Program,./src/uart_handler_thread_entry.o
+getCommandLen,0x000005F0,0x000005F3,4,---,---,.text,Program,./src/uart_handler_thread_entry.o
+uart_handler_thread_entry,0x000005F4,0x00000627,52,---,---,.text,Program,./src/uart_handler_thread_entry.o
+g_common_init,0x00000628,0x0000062B,4,---,---,.text,Program,./ra_gen/common_data.o
+g_hal_init,0x0000062C,0x00000633,8,---,---,.text,Program,./ra_gen/hal_data.o
+led_handler_thread_create,0x00000644,0x000006A7,100,---,---,.text,Program,./ra_gen/led_handler_thread.o
+rtos_startup_err_callback,0x000006A8,---,0,---,---,.text,Program,./ra_gen/main.o
+rtos_startup_err_callback_internal,0x000006A8,0x000006AB,4,---,---,.text,Program,./ra_gen/main.o
+rtos_startup_common_init,0x000006AC,0x00000717,108,---,---,.text,Program,./ra_gen/main.o
+main,0x00000718,0x00000767,80,---,---,.text,Program,./ra_gen/main.o
+vApplicationGetIdleTaskMemory,0x00000768,0x00000783,28,---,---,.text,Program,./ra_gen/main.o
+vApplicationGetTimerTaskMemory,0x00000784,0x0000079F,28,---,---,.text,Program,./ra_gen/main.o
+uart_handler_thread_create,0x000007B0,0x00000813,100,---,---,.text,Program,./ra_gen/uart_handler_thread.o
+SVC_Handler,0x00000818,0x00000833,28,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+PendSV_Handler,0x00000834,0x0000085B,40,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+rm_freertos_port_restore_task_stackless,0x0000085C,0x00000883,40,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+SysTick_Handler,0x00000884,0x000008AB,40,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+vPortSVCHandler_C,0x000008AC,0x000008E3,56,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+pxPortInitialiseStack,0x000008E4,0x0000090B,40,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+vPortEnterCritical,0x0000090C,0x00000963,88,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+vPortExitCritical,0x00000964,0x000009A7,68,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+rm_freertos_port_sleep_preserving_lpm,0x000009A8,0x00000A0F,104,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+vApplicationIdleHook,0x00000A10,0x00000A27,24,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+vPortSetupTimerInterrupt,0x00000A28,0x00000A6F,72,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+xPortStartScheduler,0x00000A70,0x00000A9B,44,---,---,.text,Program,./ra/fsp/src/rm_freertos_port/port.o
+R_SCI_UART_Read,0x00000A9C,0x00000AA3,8,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_CallbackSet,0x00000AA4,0x00000AAF,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_BaudSet,0x00000AB0,0x00000AEF,64,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_InfoGet,0x00000AF0,0x00000AFB,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_ReadStop,0x00000AFC,0x00000B07,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Open,0x00000C74,0x00000FAB,824,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Abort,0x00000FAC,0x00000FDB,48,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Close,0x00000FDC,0x00001093,184,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Write,0x00001094,0x0000117F,236,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_txi_isr,0x00001180,0x00001213,148,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_rxi_isr,0x00001214,0x00001383,368,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_tei_isr,0x00001384,0x000013D7,84,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_eri_isr,0x000013D8,0x0000145B,132,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_IOPORT_Close,0x0000145C,0x00001463,8,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinRead,0x00001464,0x00001487,36,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortRead,0x00001488,0x0000149F,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortWrite,0x000014A0,0x000014BF,32,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinWrite,0x000014C0,0x000014E7,40,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortDirectionSet,0x000014E8,0x0000150B,36,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortEventInputRead,0x0000150C,0x00001523,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinEventInputRead,0x00001524,0x0000154F,44,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortEventOutputWrite,0x00001550,0x0000156F,32,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinEventOutputWrite,0x00001570,0x000015BB,76,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_Open,0x000016B4,0x000016CB,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinsCfg,0x000016CC,0x000016D7,12,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinCfg,0x000016D8,0x00001777,160,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+SystemCoreClockUpdate,0x00001778,0x000017A3,44,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+bsp_clock_init,0x000017A4,0x000018AB,264,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+R_BSP_Init_RTC,0x000018AC,0x000018BB,16,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+__assert_func,0x000018BC,0x000018BF,4,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_common.o
+bsp_prv_software_delay_loop,0x000018C0,0x000018C7,8,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_delay.o
+R_BSP_SoftwareDelay,0x000018C8,0x00001923,92,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_delay.o
+NMI_Handler,0x00001924,0x0000196B,72,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o
+bsp_irq_cfg,0x0000196C,0x00001993,40,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_irq.o
+R_BSP_RegisterProtectEnable,0x00001994,0x000019E7,84,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+R_BSP_RegisterProtectDisable,0x000019E8,0x00001A33,76,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+HardFault_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+UsageFault_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SecureFault_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+Default_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+MemManage_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+BusFault_Handler,0x00001A34,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+DebugMon_Handler,0x00001A34,0x00001A37,4,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+Reset_Handler,0x00001A38,0x00001A43,12,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SystemInit,0x00001A44,0x00001B87,324,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+bsp_init,0x00001B88,0x00001B8B,4,---,---,.text,Program,./ra/board/ra2e1_ek/board_init.o
+vListInitialise,0x00001B8C,0x00001BA3,24,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/list.o
+vListInitialiseItem,0x00001BA4,0x00001BAB,8,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/list.o
+vListInsert,0x00001BAC,0x00001BDB,48,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/list.o
+uxListRemove,0x00001BDC,0x00001BFF,36,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/list.o
+xQueueGenericReset,0x00001CE8,0x00001DCF,232,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xQueueGenericCreateStatic,0x00001DD0,0x00001E73,164,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xQueueCreateCountingSemaphoreStatic,0x00001E74,0x00001F0B,152,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xQueueGenericSend,0x00001F0C,0x000020DF,468,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xQueueReceive,0x000020E0,0x00002297,440,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xQueueSemaphoreTake,0x00002298,0x0000241F,392,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+vQueueAddToRegistry,0x00002420,0x0000249F,128,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+vQueueWaitForMessageRestricted,0x000024A0,0x000024E7,72,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+xTaskCreateStatic,0x000027B0,0x00002A57,680,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskStartScheduler,0x00002A58,0x00002AF3,156,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskSuspendAll,0x00002AF4,0x00002B03,16,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskResumeAll,0x00002B04,0x00002CD3,464,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskDelay,0x00002CD4,0x00002D2F,92,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskGetTickCount,0x00002D30,0x00002D3B,12,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskIncrementTick,0x00002D3C,0x00002D63,40,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskSwitchContext,0x00002D64,0x00002E0B,168,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskPlaceOnEventList,0x00002E0C,0x00002E4B,64,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskPlaceOnEventListRestricted,0x00002E4C,0x00002EAF,100,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskRemoveFromEventList,0x00002EB0,0x00002FA3,244,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskInternalSetTimeOutState,0x00002FA4,0x00002FBF,28,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskCheckForTimeOut,0x00002FC0,0x00003067,168,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+vTaskMissedYield,0x00003068,0x00003077,16,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTaskGetSchedulerState,0x00003078,0x00003097,32,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+xTimerCreateTimerTask,0x000033A0,0x0000341B,124,---,---,.text,Program,./ra/aws/FreeRTOS/FreeRTOS/Source/timers.o
+sendAddr,0x0000341C,0x0000348F,116,---,---,.text,Program,./QCIOT009API/rm_qciot009.o
+sendData,0x00003490,0x00003513,132,---,---,.text,Program,./QCIOT009API/rm_qciot009.o
+uart_callback_slave,0x00003514,0x000035EB,216,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+setupSlave,0x000035EC,0x0000368F,164,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+listen,0x00003690,0x00003863,468,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+__muldi3,0x00003864,---,0,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+__aeabi_lmul,0x00003864,0x000038BF,92,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+memcpy,0x000038C0,0x000038D1,18,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+memset,0x000038D2,0x000038E1,16,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memset.o)
+_init,0x00003934,0x00003937,4,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o
+_fini,0x00003940,0x00003943,4,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o
+g_ioport,0x0000394C,0x00003957,12,---,---,.text,Program,./ra_gen/common_data.o
+led_handler_thread_parameters,0x00003964,0x00003967,4,---,---,.text,Program,./ra_gen/led_handler_thread.o
+g_bsp_pin_cfg,0x00003968,0x0000396F,8,---,---,.text,Program,./ra_gen/pin_data.o
+g_bsp_pin_cfg_data,0x00003970,0x00003ADF,368,---,---,.text,Program,./ra_gen/pin_data.o
+g_uart0,0x00003AEC,0x00003AF7,12,---,---,.text,Program,./ra_gen/uart_handler_thread.o
+g_uart0_cfg,0x00003AF8,0x00003B17,32,---,---,.text,Program,./ra_gen/uart_handler_thread.o
+g_uart0_cfg_extend,0x00003B18,0x00003B2B,20,---,---,.text,Program,./ra_gen/uart_handler_thread.o
+uart_handler_thread_parameters,0x00003B2C,0x00003B2F,4,---,---,.text,Program,./ra_gen/uart_handler_thread.o
+g_interrupt_event_link_select,0x00003B30,0x00003B4F,32,---,---,.text,Program,./ra_gen/vector_data.o
+g_uart_on_sci,0x00003C24,0x00003C47,36,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+g_ioport_on_ioport,0x00003C48,0x00003C7B,52,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+g_uart0_baud_setting,0x20004000,0x20004003,4,---,---,.data,Initialized Data,./ra_gen/uart_handler_thread.o
+uxTopUsedPriority,0x20004004,0x20004007,4,---,---,.data,Initialized Data,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+ledConfig,0x20004044,0x20004046,3,---,---,.bss,Uninitialized Data,./src/led_handler_thread_entry.o
+g_ioport_ctrl,0x20004048,0x2000404F,8,---,---,.bss,Uninitialized Data,./ra_gen/common_data.o
+led_handler_thread,0x20004050,0x20004053,4,---,---,.bss,Uninitialized Data,./ra_gen/led_handler_thread.o
+g_fsp_common_initialized,0x200040B4,0x200040B4,1,---,---,.bss,Uninitialized Data,./ra_gen/main.o
+g_fsp_common_initialized_semaphore,0x200040B8,0x200040BB,4,---,---,.bss,Uninitialized Data,./ra_gen/main.o
+g_fsp_common_initialized_semaphore_memory,0x200040BC,0x20004103,72,---,---,.bss,Uninitialized Data,./ra_gen/main.o
+g_fsp_common_thread_count,0x20004104,0x20004107,4,---,---,.bss,Uninitialized Data,./ra_gen/main.o
+g_uart0_ctrl,0x200045C8,0x200045F7,48,---,---,.bss,Uninitialized Data,./ra_gen/uart_handler_thread.o
+uart_handler_thread,0x200045F8,0x200045FB,4,---,---,.bss,Uninitialized Data,./ra_gen/uart_handler_thread.o
+g_bsp_group_irq_sources,0x20004664,0x200046A3,64,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o
+g_protect_pfswe_counter,0x200046A4,0x200046A7,4,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_io.o
+gp_renesas_isr_context,0x200046A8,0x20004727,128,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_irq.o
+g_protect_counters,0x20004728,0x2000472F,8,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+SystemCoreClock,0x20004730,0x20004733,4,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+xQueueRegistry,0x20004734,0x20004783,80,---,---,.bss,Uninitialized Data,./ra/aws/FreeRTOS/FreeRTOS/Source/queue.o
+pxCurrentTCB,0x20004784,0x20004787,4,---,---,.bss,Uninitialized Data,./ra/aws/FreeRTOS/FreeRTOS/Source/tasks.o
+ADDRESS,0x20004980,0x20004980,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+READ_ENABLE_PIN,0x20004982,0x20004983,2,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+dataRead,0x20004984,0x20004984,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_dest,0x20004988,0x2000499B,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_out_of_band_index,0x2000499C,0x2000499F,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_out_of_band_received,0x200049A0,0x200049B3,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_receive_complete,0x200049B4,0x200049B7,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_src,0x200049B8,0x200049CB,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_transfer_complete,0x200049CC,0x200049CF,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+isListening,0x200049D0,0x200049D0,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o

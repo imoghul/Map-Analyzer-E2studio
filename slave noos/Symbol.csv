@@ -1,0 +1,97 @@
+Symbol,Start address,End address,Size (byte),Data type,Declaration type,Section,Group,Object File
+__Vectors,0x00000000,0x0000003F,64,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+g_vector_table,0x00000040,0x000000BF,128,---,---,.text,Program,./ra_gen/vector_data.o
+getCommandData,0x00000550,0x0000055B,12,---,---,.text,Program,./src/demo.o
+getCommandLen,0x0000055C,0x0000055F,4,---,---,.text,Program,./src/demo.o
+demo,0x00000560,0x000005DB,124,---,---,.text,Program,./src/demo.o
+hal_entry,0x000005DC,0x000005E3,8,---,---,.text,Program,./src/hal_entry.o
+R_BSP_WarmStart,0x000005E4,0x0000061B,56,---,---,.text,Program,./src/hal_entry.o
+main,0x0000061C,0x00000627,12,---,---,.text,Program,./ra_gen/main.o
+R_SCI_UART_Read,0x00000628,0x0000062F,8,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_CallbackSet,0x00000630,0x0000063B,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_BaudSet,0x0000063C,0x0000067B,64,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_InfoGet,0x0000067C,0x00000687,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_ReadStop,0x00000688,0x00000693,12,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Open,0x00000800,0x00000B37,824,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Abort,0x00000B38,0x00000B67,48,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Close,0x00000B68,0x00000C1F,184,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_SCI_UART_Write,0x00000C20,0x00000D0B,236,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_txi_isr,0x00000D0C,0x00000D9F,148,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_rxi_isr,0x00000DA0,0x00000F0F,368,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_tei_isr,0x00000F10,0x00000F63,84,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+sci_uart_eri_isr,0x00000F64,0x00000FE7,132,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+R_IOPORT_Close,0x00000FE8,0x00000FEF,8,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinRead,0x00000FF0,0x00001013,36,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortRead,0x00001014,0x0000102B,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortWrite,0x0000102C,0x0000104B,32,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinWrite,0x0000104C,0x00001073,40,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortDirectionSet,0x00001074,0x00001097,36,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortEventInputRead,0x00001098,0x000010AF,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinEventInputRead,0x000010B0,0x000010DB,44,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PortEventOutputWrite,0x000010DC,0x000010FB,32,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinEventOutputWrite,0x000010FC,0x00001147,76,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_Open,0x00001240,0x00001257,24,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinsCfg,0x00001258,0x00001263,12,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+R_IOPORT_PinCfg,0x00001264,0x00001303,160,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+SystemCoreClockUpdate,0x00001304,0x0000132F,44,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+bsp_clock_init,0x00001330,0x00001437,264,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+R_BSP_Init_RTC,0x00001438,0x00001447,16,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_clocks.o
+__assert_func,0x00001448,0x0000144B,4,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_common.o
+bsp_prv_software_delay_loop,0x0000144C,0x00001453,8,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_delay.o
+R_BSP_SoftwareDelay,0x00001454,0x000014AF,92,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_delay.o
+NMI_Handler,0x000014B0,0x000014F7,72,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o
+bsp_irq_cfg,0x000014F8,0x0000151F,40,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_irq.o
+R_BSP_RegisterProtectEnable,0x00001520,0x00001573,84,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+R_BSP_RegisterProtectDisable,0x00001574,0x000015BF,76,---,---,.text,Program,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+DebugMon_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+HardFault_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SysTick_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+PendSV_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+UsageFault_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SecureFault_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+Default_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+MemManage_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SVC_Handler,0x000015C0,---,0,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+BusFault_Handler,0x000015C0,0x000015C3,4,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+Reset_Handler,0x000015C4,0x000015CF,12,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+SystemInit,0x000015D0,0x00001713,324,---,---,.text,Program,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+bsp_init,0x00001714,0x00001717,4,---,---,.text,Program,./ra/board/ra2e1_ek/board_init.o
+sendAddr,0x00001718,0x0000178B,116,---,---,.text,Program,./QCIOT009API/rm_qciot009.o
+sendData,0x0000178C,0x0000180F,132,---,---,.text,Program,./QCIOT009API/rm_qciot009.o
+uart_callback_slave,0x00001810,0x000018E7,216,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+setupSlave,0x000018E8,0x0000198B,164,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+listen,0x0000198C,0x00001B5F,468,---,---,.text,Program,./QCIOT009API/rm_qciot009_slave.o
+__muldi3,0x00001B60,---,0,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+__aeabi_lmul,0x00001B60,0x00001BBB,92,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp\libgcc.a(_muldi3.o)
+memcpy,0x00001BBC,0x00001BCD,18,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+memset,0x00001BCE,0x00001BDD,16,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.base/nofp\libg_nano.a(lib_a-memset.o)
+_init,0x00001C30,0x00001C33,4,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o
+_fini,0x00001C3C,0x00001C3F,4,---,---,.text,Program,c:/users/a5143516/appdata/local/programs/renesas/ra/e2studio_v2023-01_fsp_v4.3.0/toolchains/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.base/nofp/crti.o
+g_ioport,0x00001C48,0x00001C53,12,---,---,.text,Program,./ra_gen/common_data.o
+g_uart0,0x00001C54,0x00001C5F,12,---,---,.text,Program,./ra_gen/hal_data.o
+g_uart0_cfg,0x00001C60,0x00001C7F,32,---,---,.text,Program,./ra_gen/hal_data.o
+g_uart0_cfg_extend,0x00001C80,0x00001C93,20,---,---,.text,Program,./ra_gen/hal_data.o
+g_bsp_pin_cfg,0x00001C94,0x00001C9B,8,---,---,.text,Program,./ra_gen/pin_data.o
+g_bsp_pin_cfg_data,0x00001C9C,0x00001E0B,368,---,---,.text,Program,./ra_gen/pin_data.o
+g_interrupt_event_link_select,0x00001E0C,0x00001E2B,32,---,---,.text,Program,./ra_gen/vector_data.o
+g_uart_on_sci,0x00001E2C,0x00001E4F,36,---,---,.text,Program,./ra/fsp/src/r_sci_uart/r_sci_uart.o
+g_ioport_on_ioport,0x00001E50,0x00001E83,52,---,---,.text,Program,./ra/fsp/src/r_ioport/r_ioport.o
+g_uart0_baud_setting,0x20004000,0x20004003,4,---,---,.data,Initialized Data,./ra_gen/hal_data.o
+ledConfig,0x2000403C,0x2000403E,3,---,---,.bss,Uninitialized Data,./src/demo.o
+g_ioport_ctrl,0x20004040,0x20004047,8,---,---,.bss,Uninitialized Data,./ra_gen/common_data.o
+g_uart0_ctrl,0x20004048,0x20004077,48,---,---,.bss,Uninitialized Data,./ra_gen/hal_data.o
+g_bsp_group_irq_sources,0x20004078,0x200040B7,64,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o
+g_protect_pfswe_counter,0x200040B8,0x200040BB,4,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_io.o
+gp_renesas_isr_context,0x200040BC,0x2000413B,128,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_irq.o
+g_protect_counters,0x2000413C,0x20004143,8,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o
+SystemCoreClock,0x20004144,0x20004147,4,---,---,.bss,Uninitialized Data,./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ADDRESS,0x20004148,0x20004148,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+READ_ENABLE_PIN,0x2000414A,0x2000414B,2,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+dataRead,0x2000414C,0x2000414C,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_dest,0x20004150,0x20004163,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_out_of_band_index,0x20004164,0x20004167,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_out_of_band_received,0x20004168,0x2000417B,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_receive_complete,0x2000417C,0x2000417F,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_src,0x20004180,0x20004193,20,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+g_transfer_complete,0x20004194,0x20004197,4,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
+isListening,0x20004198,0x20004198,1,---,---,.bss,Uninitialized Data,./QCIOT009API/rm_qciot009.o
