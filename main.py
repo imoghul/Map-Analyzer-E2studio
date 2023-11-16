@@ -8,7 +8,7 @@ with open('labels.txt', 'r') as f:
 # ramStart = 0x20000000
 
 # any paths that contain any of these will be counted
-identifiers = ['./QCIOT009API/rm_qciot009', './src/']
+identifiers = ['./QCIOT009', './src/']
 
 romSections = ['.text']
 ramSections = ['.bss', '.data']
@@ -47,7 +47,6 @@ def readObjectFile(filename, addrIndexedList):
     reader = list(csv.reader(f))
     for row in reader[1:]:
       if any(i in row[0] for i in identifiers):
-        # print(row)
         try:
           start = int(row[1], 0)
           inRom = isRom(start, int(row[2], 0), row[4], row[5])
@@ -96,7 +95,6 @@ def readSymbolFile(filename, addrIndexedList):
     reader = list(csv.reader(f))
     for row in reader[1:]:
       if any(i in row[8] for i in identifiers):
-        # print(row)
         try:
           start = int(row[1], 0)
           inRom = isRom(start, int(row[2], 0), row[6], row[7])
