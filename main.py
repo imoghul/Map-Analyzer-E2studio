@@ -32,6 +32,11 @@ def isRam(start, end, section, group):
   elif (section in romSections): return False
 
 
+"""
+  @param addrIndexedList: key is addr, value is list [size, section, path, isRom, isRam]
+"""
+
+
 def readObjectFile(filename, addrIndexedList):
   global identifiers
 
@@ -74,6 +79,11 @@ def readObjectFile(filename, addrIndexedList):
         except Exception as e:
           print(str(e))
   return romUsage, ramUsage
+
+
+"""
+  @param addrIndexedList: key is addr, value is list [size, section, path, isRom, isRam]
+"""
 
 
 def readSymbolFile(filename, addrIndexedList):
@@ -122,8 +132,7 @@ def readSymbolFile(filename, addrIndexedList):
 
 print("\t\t\t\t\t rom\tram")
 for file in ["master freertos", "master noos", "slave freertos", "slave noos"]:
-  addrIndexedList = {
-  }  # key is addr, value is list [size, section, path, isRom, isRam]
+  addrIndexedList = {}
   print(file)
   romUsage = 0
   ramUsage = 0
