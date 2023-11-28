@@ -42,6 +42,8 @@ romSections = sections[indeces[romSectionLocation] +
 ramSections = sections[indeces[ramSectionLocation] +
                        1:ends[ramSectionLocation]] if indeces[
                            ramSectionLocation] != -1 else ['.data', '.bss']
+# any paths that contain any of these will be counted
+# this will usually be the api and src directories
 identifiers = sections[indeces[identifiersLocation] +
                        1:ends[identifiersLocation]] if indeces[
                            identifiersLocation] != -1 else ["./src/"]
@@ -51,9 +53,6 @@ print("Using these rom sections: ", romSections)
 print("Using these ram sections: ", ramSections)
 # romEnd = 0x20000
 # ramStart = 0x20000000
-
-# any paths that contain any of these will be counted
-# this will usually be the api and src directories
 
 
 def isRom(start, end, section, group):
@@ -171,14 +170,16 @@ def readSymbolFile(filename, addrIndexedList):
 
 
 print("               \t\t  rom\tram")
-for file in ["."]:
+for folder in ["."]:
   addrIndexedList = {}
-  print(file)
+  print(folder)
   romUsage = 0
   ramUsage = 0
-  romUsage, ramUsage = readObjectFile("%s/Object.csv" % file, addrIndexedList)
+  romUsage, ramUsage = readObjectFile("%s/Object.csv" % folder,
+                                      addrIndexedList)
   print("Object file only:\t", romUsage, "\t", ramUsage)
-  romUsage, ramUsage = readSymbolFile("%s/Symbol.csv" % file, addrIndexedList)
+  romUsage, ramUsage = readSymbolFile("%s/Symbol.csv" % folder,
+                                      addrIndexedList)
   print("Symbol file only:\t", romUsage, "\t", ramUsage)
 
   romUsage = 0
